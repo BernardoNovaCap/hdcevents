@@ -42,7 +42,7 @@ header {
     padding: 10px;
 }
 
-/* navbar */
+  /* navbar */
 #navbar img {
     width: 40px;
 }
@@ -62,7 +62,7 @@ header {
     color: #F2A340;
 }
 
-/* Search Container */
+  /* Search Container */
 #search-container {
     background-image: url("../img/banner.jpg");
     background-size: cover;
@@ -83,8 +83,7 @@ header {
     margin: 0 auto;
 }
 
-/* Events list */
-
+  /* Events list */
 #events-container {
     padding: 50px;
 }
@@ -98,9 +97,9 @@ header {
     margin-bottom: 30px;
 }
 
-.cards-container{
+#cards-container {
     display: flex;
-}
+} 
 
 #events-container .card {
     flex: 1 1 24%;
@@ -112,8 +111,8 @@ header {
 
 #events-container img {
     max-height: 150px;
-    border-top-right-radius: 10px;
     border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .card .card-date {
@@ -133,10 +132,9 @@ header {
     color: #757575;
 }
 
-/* event create page */
-
+  /* Event create page */
 #event-create-container {
-    padding: 30px;
+    padding: 30px
 }
 
 #event-create-container label {
@@ -149,9 +147,7 @@ header {
     font-size: 12px;
 }
 
-
-/* event page */
-
+  /* Event page */
 #image-container,
 #info-container {
     margin-top: 30px;
@@ -201,7 +197,7 @@ header {
     margin-top: 30px;
 }
 
-/* dashboard */
+  /* Dashboard */
 
 .dashboard-title-container {
     margin-bottom: 30px;
@@ -210,15 +206,20 @@ header {
 
 .dashboard-events-container th {
     width: 25%;
-    
 }
 
 .dashboard-events-container form {
     display: inline-block;
 }
 
-/* footer */
+  /* Edit page */
 
+.img-preview {
+    width: 100px;
+    margin-top: 20px;
+}
+
+  /* footer */
 footer {
     text-align: center;
     background-color: #353E48;
